@@ -367,6 +367,7 @@ div.detalle-evento p{
 ul.lista-invitados li{
   padding: 10px;
   float: left;
+  padding-left: 50px;
 }
 
 ul.lista-invitados img{

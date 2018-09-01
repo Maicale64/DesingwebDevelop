@@ -51,7 +51,7 @@ h2{
   text-align: center;
 }
 h3{
-  font-size: 2.4em;
+  font-size: 1.6em!important;
   color: #D2E33E;
   font-family: 'Kanit', sans-serif;
   margin: 0;
@@ -67,7 +67,18 @@ h3{
   margin-top: 20px;
   display: inline-block;
   transition: all .3s ease;
+  border 2px solid;
 }
+
+.button.transparente{
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+.button.transparente:hover{
+
+  border: 2px solid ##D2E33E;
+}
+
 .button:hover{
   background:  #BBCA39;
 }
@@ -389,7 +400,7 @@ ul.lista-invitados img{
 
 div.invitado {
   position: relative;
-  overflow: hidden;
+  overflow: hidden!important;
 }
 div.invitado img{
 max-width: 100%;
@@ -442,8 +453,21 @@ div.tabla-precio{
   padding: 40px 0;
   text-align: center;
 }
+div.tabla-precio:hover{
+  transform: scale(1.1);
+  border: 1px solid #34EA9D;
+  box-shadow: 0px 0px 50px #666;
+  transition: all .3s ease;
+}
+
+.button.hollow,.button.hollow{
+  background-color: white;
+  color: #34EA9D;
+}
+
+
 div.tabla-precio li{
-color: #34EA9D;
+color: #424040;
 }
 div.tabla-precio ul li{
 font-family: 'Merienda', cursive;
@@ -458,7 +482,7 @@ div.tabla-precio h3{
   text-transform: uppercase;
 }
 p.numero{
-  color: black;
+  color: #D73131;
   font-size: 4em;
   display: block;
   margin: 0 0 10px 0;
@@ -471,6 +495,7 @@ div.tabla-precio p.numero{
 
 
 div.tabla-precio ul li i{
+
   display: inline-block;
   vertical-align: top;
   padding: 0 5px;
@@ -478,4 +503,187 @@ div.tabla-precio ul li i{
   color: green;
 
 }
+
+div.mapa{
+  height: 420px;
+  background: green;
+}
+section blockquote footer img{
+width: 70%;
+height: 170px;
+
+}
+
+
+div.testimoniales{
+  padding-bottom: 20px;
+}
+
+div.testimonial{
+  padding: 5px;
+}
+
+@media only screen and (min-width:769px){
+  div.testimonial{
+    float: left;
+    width: 33.3%;
+  }
+}
+
+blockquote{
+  background: white;
+  border: 1px solid #34EA9D;
+  padding-bottom: 20px;
+  margin: 0 0 10px 0;
+  position: relative;
+}
+blockquote p{
+  padding-left: 10px;
+  color: black;
+  text-align:right!important;
+  font-size: 1em!important;
+  font-family: 'Kanit', sans-serif;
+}
+
+blockquote i::before{
+  position: absolute;
+  left: 13px;
+  top: 8px;
+  font-size: 2em!important;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #34EA9D;
+}
+
+footer.infor-testimonial cite span{
+  color: black;
+}
+
+footer.info-testimonial{
+  padding: 0;
+}
+
+footer.info-testimonial img{
+float: left;
+width: 60%;
+border-radius: 50%!important;
+margin-left: 20px;
+}
+
+footer.info-testimonial cite{
+  text-align: left;
+  color: #34EA9D;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-top: 20px;
+width: 66.6%;
+float: right;
+font-weight: bold;
+font-style: normal;
+}
+
+footer.inifo-testimonial cite span{
+  display: block;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+div.newsletter{
+  position: relative;
+  height: auto;
+}
+
+.parallax{
+  background-position: top center;
+  background-size: cover;
+}
+
+div.newsletter{
+background-image:url("img/img1.jpg")!important;
+content: '';
+}
+
+div.newsletter .contenido {
+  padding: 100px 0;
+  color: #D73131;
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+}
+
+div.newsletter .contenido p{
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+
+div.newsletter .contenido h3{
+font-size: 7vw!important;
+   font-weight: bold;
+  color: #D73131;
+  text-transform: uppercase;
+}
+
+
+div.cuenta-regresiva ul li{
+  text-transform: uppercase;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2em;
+text-align: center;
+color: black;
+}
+
+
+@media only screen and (min-width:768px){
+  div.cuenta-regresiva ul li{
+    width: 25%;
+    float: left;
+  }
+}
+
+footer{
+  background: #353535;
+  padding-top: 40px;
+  margin-top: 20px;
+}
+
+footer .contenedor > div{
+  color: #ffffff;
+  padding: 0 20px;
+  font-size: 12px;
+
+}
+@media only screen and (min-width:768px){
+footer .contenedor > div{
+  float: left;
+  width: 33.3%;
+}
+}
+
+footer h3{
+  color:white;
+text-transform: uppercase;
+margin-bottom: 20px;
+font-family: 'Kanit', sans-serif;
+}
+
+footer h3 span{
+  color: #D73131;
+}
+
+footer .ultimos-tweets li{
+  margin-bottom: 20px;
+}
+
+footer nav.redes-sociales{
+  text-align: left;
+}
+p.copyright{
+background: #2e2e2e;
+color: white;
+padding: 10px 0;
+text-align: center;
+margin: 0;
+}
+
 

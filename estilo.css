@@ -1,3 +1,4 @@
+
 html{
   box-sizing: border-box;
 font-size: 1em;
@@ -555,7 +556,7 @@ blockquote i::before{
   color: #34EA9D;
 }
 
-footer.infor-testimonial cite span{
+footer.info-testimonial cite span{
   color: black;
 }
 
@@ -582,7 +583,7 @@ font-weight: bold;
 font-style: normal;
 }
 
-footer.inifo-testimonial cite span{
+footer.info-testimonial cite span{
   display: block;
   text-transform: none;
   margin-top: 10px;
@@ -684,4 +685,3 @@ padding: 10px 0;
 text-align: center;
 margin: 0;
 }
-

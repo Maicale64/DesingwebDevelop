@@ -13,7 +13,7 @@ line-height: 1.4;
 
 body{
   margin: 0 auto;
-  background: #D7D8C1;
+  background: #B2B2B2;
   font-family: 'Kanit', sans-serif;
 }
 .contenedor{
@@ -45,13 +45,13 @@ body{
 
 h2{
   color: white;
-  font-family: 'Basic', sans-serif;
+  font-family: 'Courgette', cursive;
   font-size: 2.4em;
   text-transform: uppercase;
   text-align: center;
 }
 h3{
-  font-size: 1.6em;
+  font-size: 2.4em;
   color: #D2E33E;
   font-family: 'Kanit', sans-serif;
   margin: 0;
@@ -284,7 +284,7 @@ div.contenedor-video{
 overflow-x: hidden;
 }
 div.contenedor-video img{
-  height: 890px;;
+  height: 1015px;;
   background-position: top center;
   background-size: cover;
   width: 100%;
@@ -367,7 +367,7 @@ div.detalle-evento p{
 ul.lista-invitados li{
   padding: 10px;
   float: left;
-  padding-left: 50px;
+
 }
 
 ul.lista-invitados img{
@@ -375,18 +375,19 @@ ul.lista-invitados img{
   height: 200px;
 }
 
-@media only screen and(min-width:480px;){
+@media only screen and (min-width:480px;){
   ul.lista-invitados li{
   width: 50%;
+  padding-left: 0px;
   }
 }
-@media only screen and(min-width:768px;){
+@media only screen and (min-width:768px;){
   ul.lista-invitados li{
   width: 33.3%;
   }
 }
 
-div.invitado{
+div.invitado {
   position: relative;
   overflow: hidden;
 }
@@ -405,15 +406,15 @@ transform: translate(1);
 div.invitado:hover p{
   bottom: -80px;
   opacity: 0;
-
 }
+
 
 div.invitado p{
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 15px 10px;
-  margin:0;
+  margin:0 auto;
   background-color: rgba(0, 0, 0, 0.5);
 width: 100%;
 text-align: left;
@@ -422,3 +423,59 @@ color: #D2E33E;
 text-transform: uppercase;
   -webkit-transition: all .7s ease-in-out;
 }
+
+
+ul.lista-precios > li{
+padding: 10px;
+}
+
+@media only screen and (min-width:768px){
+ul.lista-precios > li{
+  float: left;
+  width: 33.3%;
+}
+}
+
+div.tabla-precio{
+  border: 1px solid #e1e1e1;
+  background: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+}
+div.tabla-precio li{
+color: #34EA9D;
+}
+div.tabla-precio ul li{
+font-family: 'Merienda', cursive;
+font-size: 14px;
+padding: 20px;
+text-transform: uppercase;
+}
+
+div.tabla-precio h3{
+  font-family: 'Kanit', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+p.numero{
+  color: black;
+  font-size: 4em;
+  display: block;
+  margin: 0 0 10px 0;
+  font-family: 'Kanit', sans-serif;
+}
+div.tabla-precio p.numero{
+  color: black;
+  margin-top: 20px;
+}
+
+
+div.tabla-precio ul li i{
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 5px;
+  font-size: 20px;
+  color: green;
+
+}
+

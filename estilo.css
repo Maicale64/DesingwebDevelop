@@ -379,12 +379,11 @@ div.detalle-evento p{
 
 ul.lista-invitados{
 margin: 70px ;
-
 }
+
 ul.lista-invitados li{
   padding: 10px ;
   float: left;
-
 }
 
 ul.lista-invitados img{
@@ -393,14 +392,12 @@ ul.lista-invitados img{
 }
 
 @media only screen and (min-width:480px;){
-
   ul.lista-invitados li{
   width: 50%;
   padding-left: 0px;
   }
 }
 @media only screen and (min-width:768px;){
-
   ul.lista-invitados li{
   width: 33.3%;
   }

@@ -206,6 +206,7 @@ div.logo img{
 }
 nav.navegacion-principal{
   display: none;
+  width:100%;
 }
 
 nav.navegacion-principal a{
@@ -233,7 +234,7 @@ nav.navegacion-principal a:last-child:hover{
 
 @media only screen and (min-width:768px){
   nav.navegacion-principal{
-width: 77%;
+width: 67%;
 float:right;
 text-align: right;
 display: block;
@@ -242,6 +243,7 @@ display: block;
 margin-right: 10px;
 padding: 10px 10px;
 display: inline-block;
+    width:auto;
 }
 
 nav.navegacion-principal a{

@@ -4,7 +4,7 @@ $(function(){
 var windowHeight = $(window).height();
 var barraAltura  = $('.barra').innerHeight();
   
-console.log(barraAltura);  
+ 
 $(window).scroll(function(){
 var scroll = $(window).scrollTop();
   if(scroll > windowHeight){

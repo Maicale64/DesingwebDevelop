@@ -1,3 +1,4 @@
+
 html{
   box-sizing: border-box;
 font-size: 1em;
@@ -66,16 +67,16 @@ h3{
   margin-top: 20px;
   display: inline-block;
   transition: all .3s ease;
-  border 2px solid;
+  border: 2px solid;
 }
 
 .button.transparente{
-  background-color: transparent;
-  border: 2px solid #ffffff;
+  background: 0 0;
+  border-color: 2px solid #ffffff;
 }
 .button.transparente:hover{
 
-  border: 2px solid ##D2E33E;
+  border-color: 2px solid #D2E33E;
 }
 
 .button:hover{
@@ -118,7 +119,7 @@ nav.redes-sociales{
 }
 
 div.barra{
-background-image:url("img/hack.png");
+  background: #ffffff;
   padding:20px 0;
 }
 
@@ -283,7 +284,6 @@ div.menu-movil span{
 }
 
 
-
 section.programa{
   position: relative;
   padding: 0;
@@ -377,13 +377,14 @@ div.detalle-evento p{
 }
 
 
+
 ul.lista-invitados{
 margin: 70px ;
 }
-
 ul.lista-invitados li{
   padding: 10px ;
   float: left;
+
 }
 
 ul.lista-invitados img{
@@ -391,13 +392,15 @@ ul.lista-invitados img{
   height: 200px;
 }
 
-@media only screen and (min-width:480px;){
+@media only screen and (min-width:480px){
+
   ul.lista-invitados li{
   width: 50%;
-  padding-left: 0px;
+ 
   }
 }
-@media only screen and (min-width:768px;){
+@media only screen and (min-width:768px){
+
   ul.lista-invitados li{
   width: 33.3%;
   }
@@ -411,11 +414,11 @@ div.invitado img{
 max-width: 100%;
 filter: gray;
 -webkit-filter: grayscale(1);
--webkit-transition: all .7s ease-in-out;
+-transition: all .7s ease-in-out;
 }
 div.invitado:hover img{
 -webkit-transform: scale(1.1);
-  -webkit-filter: grayscale(0);
+filter: grayscale(0);
 transform: translate(1);
 }
 
@@ -437,7 +440,7 @@ text-align: left;
 font-family: 'Kanit', sans-serif;
 color: #D2E33E;
 text-transform: uppercase;
-  -webkit-transition: all .7s ease-in-out;
+transition: all .7s ease-in-out;
 }
 
 

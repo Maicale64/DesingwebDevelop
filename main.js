@@ -1,17 +1,18 @@
 
 $(function(){
+
 var windowHeight = $(window).height();
 var barraAltura  = $('.barra').innerHeight();
   
-
+ 
 $(window).scroll(function(){
 var scroll = $(window).scrollTop();
   if(scroll > windowHeight){
-  coonsole.log("ya rebasaste la altura de la pantalla");
+  $('.barra').addClass('fixed');
   }else{
-  console.log("Aun no xd");
+  $('.barra').removeClass('fixed');
   }
-});  
+}); 
   
 $('.menu-movil').on('click', function(){
 $('.navegacion-principal').slideToggle();

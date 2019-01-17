@@ -2,7 +2,7 @@
 $(function(){
 
 $('.menu-movil').on('click', function(){
-$('.navegacion-principal').slideToogle();
+$('.navegacion-principal').slideToggle();
 });  
   
 });

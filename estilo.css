@@ -123,6 +123,14 @@ div.barra{
   padding:20px 0;
 }
 
+.fixed{
+position:fixed;
+  width:100%;
+  top:0;
+  left:0;
+  z-index:2;
+}
+
 nav.redes-sociales a{
   color: #ffffff;
   font-size: 35px;

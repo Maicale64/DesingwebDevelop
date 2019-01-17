@@ -9,8 +9,12 @@ $(window).scroll(function(){
 var scroll = $(window).scrollTop();
   if(scroll > windowHeight){
   $('.barra').addClass('fixed');
+    
+   $('body').css({'margin-top':barraAltura+'px'});  
+    
   }else{
   $('.barra').removeClass('fixed');
+     $('body').css({'margin-top':'0px'}); 
   }
 }); 
   

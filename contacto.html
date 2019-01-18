@@ -62,7 +62,35 @@
 
   </div>
 </div>
-    
+    <form action="enviar.php" method="POST" class="clearfix">
+  <div class="cont-form">
+  <label >Ingrese su nobmre</label>
+  <input type="text"  name="nombre" required>
+
+  <label >Ingrese su telefono</label>
+    <input type="text"  name="telefono">
+
+    <label >Ingrese su correo</label>
+    <input type="email" placeholder="name@example.com" name="correo" required>
+
+  
+    <label >Sevicio</label>
+    <select name="seleccion">
+      <option>Diseño Web</option>
+      <option>Desarrollo Web</option>
+      <option>Digital Marketing</option>
+    </select>
+
+
+  
+    <label >Mensaje</label>
+    <textarea  name="mensaje" required></textarea>
+
+
+  <button type="submit" >Enviar</button>
+</div>
+</form>
+
     <footer class="site-footer">
 <div class="contenedor clearfix">
   <div class="footer-informacion">

@@ -19,5 +19,5 @@ $carta .="Asunto: $seleccion \n";
 $carta .="Mensaje: $mensaje";
 
 mail($destinatario, $asunto, $carta);
-
+header('Location:index.html');
 ?>

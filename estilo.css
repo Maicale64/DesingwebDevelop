@@ -26,6 +26,12 @@ body{
 width: 350px; 
   
 }
+div.inf{
+text-align: center; 
+}
+div.inf h3{
+color: crimson;
+}
 div.imgd{
   padding: 15px;
   width: 50%;

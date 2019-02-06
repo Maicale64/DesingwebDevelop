@@ -9,6 +9,8 @@
     enable_page_level_ads: true
   });
 </script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Design and Develop Web</title>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -63,14 +65,14 @@
   </div>
 </div>
 
-<section class="seccion contenedor">
+<section class="seccion contenedor" data-aos="fade-right">
   <h2> Las mejores maquetaciones web </h2>
   <p>
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
 </section>
 
-<section class="programa">
+<section class="programa" data-aos="fade-up-left" data-aos-duration="2000">
 <div class="contenedor-video clearfix">
 <img src="img/p3.1.jpg" alt="">
 </div>
@@ -107,7 +109,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 </section>
 
 
-<section class="invitado contenedor seccion">
+<section class="invitado contenedor seccion" data-aos="flip-right" data-aos-duration="3000">
   <h2>Nuestro Trabajo</h2>
 <ul class="lista-invitados clearfix">
   <li> <div class="invitado">
@@ -135,7 +137,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 
-<section class="precios seccion">
+<section class="precios seccion" data-aos="flip-left"
+data-aos-easing="ease-out-cubic"
+data-aos-duration="2000">
   <h2>Precios</h2>
   <div class="contenedor">
     <ul class="lista-precios clearfix">
@@ -184,7 +188,8 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 
 
-<section class="seccion">
+<section class="seccion" data-aos="fade-up"
+data-aos-anchor-placement="top-center">
 <h2>Paginas hechas</h2>
 <div class="testimoniales contenedor clearfix">
 
@@ -225,7 +230,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 </div>
 </section>
 
-<div class="newsletter parallax clearfix">
+<div class="newsletter parallax clearfix" data-aos="fade-right"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
   <div class="contenido contenedor clearfix">
     <p>Obten tu pagina Web Ahora</p>
     <h3> Design Web </h3>
@@ -266,9 +273,14 @@ Todos los derechos reservados Michael Sarmiento
 </p>
 
 </footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="main.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="main.js"></script>
   </body>
 </html>
+
+
 
 
